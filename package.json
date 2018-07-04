@@ -24,6 +24,7 @@
     "express": "^4.16.3",
     "extract-text-webpack-plugin": "^3.0.2",
     "live-server": "^1.2.0",
+    "mongodb": "^3.1.0",
     "node-sass": "^4.7.2",
     "normalize.css": "^8.0.0",
     "react": "^16.2.0",
@@ -33,12 +34,12 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
     "redux-thunk": "^2.2.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
     "validator": "^9.4.0",
-    "webpack": "^3.1.0",
-    "webpack-dev-server": "^2.11.1"
+    "webpack": "^3.1.0"
   },
   "devDependencies": {
     "enzyme": "2.9.1",
@@ -46,5 +47,6 @@
     "jest": "20.0.4",
     "react-test-renderer": "15.6.1",
     "webpack-dev-server": "2.5.1"
-  }
+  },
+  "proxy": "http://localhost:8080"
 }
